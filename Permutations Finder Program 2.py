@@ -5,7 +5,7 @@ def permutation_function_using_built_in_function(user_list) :
         result = result + [list(permutation)]
     return result
 def main() :
-    a = list(eval(input('>> Please enter a numbers seprated by Comma : ')))
+    a = list(eval(input('>> Please enter Numbers/Strings seprated by Comma : ')))
     result = permutation_function_using_built_in_function(a)
     print()
     print('--> ',result)
